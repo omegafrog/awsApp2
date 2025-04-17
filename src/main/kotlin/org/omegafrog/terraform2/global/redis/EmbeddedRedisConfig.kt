@@ -1,4 +1,4 @@
-package com.think.back250417.global.redis
+package org.omegafrog.terraform2.global.redis
 
 import jakarta.annotation.PostConstruct
 import jakarta.annotation.PreDestroy

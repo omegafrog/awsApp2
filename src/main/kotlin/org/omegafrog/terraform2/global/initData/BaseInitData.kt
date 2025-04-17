@@ -1,6 +1,6 @@
-package com.think.back250417.global.initData
+package org.omegafrog.terraform2.global.initData
 
-import com.think.back250417.domain.post.post.service.PostService
+import org.omegafrog.terraform2.domain.post.post.service.PostService
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.boot.ApplicationRunner
 import org.springframework.cache.annotation.Cacheable

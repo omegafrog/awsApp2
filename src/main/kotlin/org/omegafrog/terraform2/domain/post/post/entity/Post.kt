@@ -1,4 +1,4 @@
-package com.think.back250417.domain.post.post.entity
+package org.omegafrog.terraform2.domain.post.post.entity
 
 import jakarta.persistence.Entity
 import jakarta.persistence.GeneratedValue
