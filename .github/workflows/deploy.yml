@@ -90,6 +90,7 @@ jobs:
         id: fetch_instance
         run: |
           INSTANCE_ID=$(aws ec2 describe-instances \
+            --region ${{ secrets.AWS_REGION }}
             --filters \
               "Name=tag:Name,Values=dev-ec2-1" \
               "Name=instance-state-name,Values=running" \
